@@ -1,0 +1,19 @@
+RevA3 validation report (script-checked)
+========================================
+PASS  U1 pad-net vs official ESP32-S3-PICO-1 Table 2-1: 57/57 correct.
+PASS  U1 geometry anti-clockwise, PIN1 top-left (1-14 L, 15-28 B, 29-42 R, 43-56 T, 57 C).
+PASS  GPIO33-37 (pad38-42) and SPICS1 (pad28) left NC for octal PSRAM.
+PASS  VDD3P3_CPU(pad46)=3V3, VDDA(pad55/56)=3V3, GND(pad57).
+PASS  TPS63031 U2 pinout matches TI DSK (EN=VBAT, PS/SYNC=GND, FB=GND).
+PASS  MCP73831 U3 and TLV70028/70013 U4/U5 pinouts match datasheets.
+PASS  Cradle pogos single-pad, no GND short; P1=5V P2=GND P3=STAT P4=WAKE.
+PASS  Cradle charge LED in series (VBUS->R4->CHG_LED_A->LED2->STAT).
+PASS  USB-C J1 exposes VBUS/GND/CC1/CC2 with correct sink Rd.
+PASS  Device/cradle pogo pitch 4.0 mm.
+PASS  BOM/CPL regenerated from PCB; consistent designators.
+
+NOT CHECKED HERE (must be done in KiCad before fabrication):
+- Full routing, ERC, DRC, copper pours continuity.
+- Final footprint land-pattern accuracy vs manufacturer drawings (esp. U1).
+- LCSC part numbers (blank by design).
+- RF tuning / power integrity / thermal.

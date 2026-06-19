@@ -1,0 +1,50 @@
+** Drc report for small_base.kicad_pcb **
+** Created on 2026-06-20T00:06:11 **
+** Report includes: Errors **
+
+** Found 0 DRC violations **
+
+** Found 8 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] B.Cu 上, 優先度 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,114 @@
+** Drc report for CameraIoT_tmp4.kicad_pcb **
+** Created on 2026-06-19T23:58:26 **
+** Report includes: Errors **
+
+** Found 23 DRC violations **
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と CAM_XCLK)
+    Local override; error
+    @(13.2500 mm, 11.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(16.0273 mm, 11.4669 mm): 配線 [CAM_XCLK] ( B.Cu 上、長さ: 3.7932 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット VBAT と GND)
+    Local override; error
+    @(25.7361 mm, 9.7453 mm): 配線 [VBAT] ( In2.Cu 上、長さ: 3.4371 mm )
+    @(26.9000 mm, 9.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と LNA_IN)
+    Local override; error
+    @(24.5000 mm, 9.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(22.2581 mm, 6.8477 mm): 配線 [LNA_IN] ( In2.Cu 上、長さ: 9.3447 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット CAM_D9 と GND)
+    Local override; error
+    @(13.5798 mm, 11.4850 mm): 配線 [CAM_D9] ( In2.Cu 上、長さ: 2.8201 mm )
+    @(13.2500 mm, 11.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0301 mm)
+    Local override; error
+    @(14.8058 mm, 12.7110 mm): 配線 [CAM_D9] ( In2.Cu 上、長さ: 1.7338 mm )
+    @(13.2500 mm, 11.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0517 mm)
+    Local override; error
+    @(26.9000 mm, 9.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(27.2517 mm, 8.7000 mm): 配線 [3V3] ( F.Cu 上、長さ: 1.3784 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(26.4533 mm, 7.4607 mm): 配線 [3V3] ( B.Cu 上、長さ: 10.9165 mm )
+    @(24.5000 mm, 9.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0761 mm)
+    Local override; error
+    @(14.0000 mm, 14.1267 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.6500 mm )
+    @(13.6250 mm, 14.0980 mm): ビア [GND] (F.Cu - B.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と USB_DN)
+    Local override; error
+    @(26.1510 mm, 12.5670 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(26.0419 mm, 12.8233 mm): 配線 [USB_DN] ( F.Cu 上、長さ: 0.2536 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0449 mm)
+    Local override; error
+    @(26.2668 mm, 13.0482 mm): ビア [USB_DN] (F.Cu - B.Cu 上)
+    @(26.1510 mm, 12.5670 mm): ビア [GND] (F.Cu - B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0500 mm)
+    Local override; error
+    @(24.5000 mm, 9.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(24.5000 mm, 9.1000 mm): パッド 4 [VBAT] - U2 ( F.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0749 mm)
+    Local override; error
+    @(21.3913 mm, 13.1389 mm): 配線 [GPIO0] ( B.Cu 上、長さ: 6.1581 mm )
+    @(24.5000 mm, 9.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0500 mm)
+    Local override; error
+    @(26.9000 mm, 9.1000 mm): パッド 7 [TPS_L2] - U2 ( F.Cu 上)
+    @(26.9000 mm, 9.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0745 mm)
+    Local override; error
+    @(15.3405 mm, 9.5788 mm): 配線 [GPIO0] ( In2.Cu 上、長さ: 2.4907 mm )
+    @(18.0440 mm, 9.8870 mm): ビア [GND] (F.Cu - B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0750 mm)
+    Local override; error
+    @(13.6250 mm, 14.0980 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(14.0000 mm, 13.6000 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.5267 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と CAM_D5)
+    Local override; error
+    @(13.6250 mm, 14.0980 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(16.5748 mm, 13.8547 mm): 配線 [CAM_D5] ( In2.Cu 上、長さ: 6.3158 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GPIO0 と GND)
+    Local override; error
+    @(17.8312 mm, 9.5788 mm): 配線 [GPIO0] ( In2.Cu 上、長さ: 5.0347 mm )
+    @(18.0440 mm, 9.8870 mm): ビア [GND] (F.Cu - B.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と USB_DN)
+    Local override; error
+    @(26.1510 mm, 12.5670 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(26.2668 mm, 13.0482 mm): 配線 [USB_DN] ( F.Cu 上、長さ: 0.3181 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と CAM_D6)
+    Local override; error
+    @(13.2500 mm, 11.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(15.0712 mm, 11.2333 mm): 配線 [CAM_D6] ( In2.Cu 上、長さ: 4.2072 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と CAM_D5)
+    Local override; error
+    @(16.5000 mm, 14.0000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(16.5748 mm, 13.8547 mm): 配線 [CAM_D5] ( In2.Cu 上、長さ: 6.3158 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット CAM_D5 と GND)
+    Local override; error
+    @(16.9692 mm, 13.4603 mm): 配線 [CAM_D5] ( In2.Cu 上、長さ: 0.5578 mm )
+    @(16.5000 mm, 14.0000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.1500 mm; 現状 0.0857 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(14.0000 mm, 13.6000 mm): パッド 3 [3V3] - U5 ( F.Cu 上)
+    @(13.6250 mm, 14.0980 mm): ビア [GND] (F.Cu - B.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(13.6250 mm, 14.0980 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(14.0000 mm, 13.6000 mm): パッド 3 [3V3] - U5 ( F.Cu 上)
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+    @(0.0000 mm, 0.0000 mm): ゾーン [GND] F.Cu 上, 優先度 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

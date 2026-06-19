@@ -1,0 +1,490 @@
+** Drc report for CameraIoT_38x18_FINAL.kicad_pcb **
+** Created on 2026-06-19T23:48:52 **
+** Report includes: Errors **
+
+** Found 118 DRC violations **
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と VBAT)
+    Local override; error
+    @(30.5750 mm, 9.9940 mm): 配線 [GND] ( F.Cu 上、長さ: 2.4501 mm )
+    @(31.5250 mm, 9.6713 mm): 配線 [VBAT] ( F.Cu 上、長さ: 0.3009 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0267 mm)
+    Local override; error
+    @(27.6000 mm, 11.7000 mm): 配線 [GND] ( F.Cu 上、長さ: 2.2000 mm )
+    @(27.2517 mm, 10.0784 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.2073 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(30.5750 mm, 9.9940 mm): 配線 [GND] ( F.Cu 上、長さ: 2.4501 mm )
+    @(31.5250 mm, 9.9722 mm): 配線 [VBAT] ( F.Cu 上、長さ: 0.6017 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(15.6000 mm, 14.0000 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.4267 mm )
+    @(16.5000 mm, 14.0000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.4731 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(30.7500 mm, 8.7283 mm): 配線 [VCHG_5V] ( F.Cu 上、長さ: 2.0579 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0250 mm)
+    Local override; error
+    @(8.5000 mm, 16.1000 mm): ビア [VBAT] (F.Cu - B.Cu 上)
+    @(21.0000 mm, 16.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 17.6500 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット VBAT と LED_WIFI)
+    Local override; error
+    @(8.9000 mm, 16.6000 mm): ビア [VBAT] (F.Cu - B.Cu 上)
+    @(21.0000 mm, 16.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 17.6500 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と VBAT)
+    Local override; error
+    @(25.7000 mm, 9.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.2000 mm )
+    @(25.7361 mm, 9.7453 mm): ビア [VBAT] (F.Cu - B.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(16.0267 mm, 14.0000 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.3200 mm )
+    @(16.5000 mm, 14.0000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.4731 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と 3V3)
+    Local override; error
+    @(16.5000 mm, 14.0000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.4731 mm )
+    @(15.6000 mm, 14.0000 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.4267 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+    @(27.2517 mm, 8.7000 mm): 配線 [3V3] ( F.Cu 上、長さ: 1.3784 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(13.2500 mm, 11.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 2.1095 mm )
+    @(14.2179 mm, 12.1699 mm): 配線 [CAM_SIOC] ( F.Cu 上、長さ: 1.3673 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(21.0000 mm, 12.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 4.0000 mm )
+    @(8.5000 mm, 16.1000 mm): 配線 [VBAT] ( B.Cu 上、長さ: 21.3700 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット VBAT と GND)
+    Local override; error
+    @(29.8700 mm, 16.1000 mm): 配線 [VBAT] ( B.Cu 上、長さ: 5.6600 mm )
+    @(29.9883 mm, 15.4000 mm): PTHパッド S2 [GND] (J2)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0807 mm)
+    Local override; error
+    @(21.0733 mm, 8.7894 mm): 配線 [LED_STATUS] ( F.Cu 上、長さ: 0.8678 mm )
+    @(21.2980 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 0.2980 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット TPS_EN と LED_WIFI_A)
+    Local override; error
+    @(6.5000 mm, 17.2000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 0.7000 mm )
+    @(6.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - LED3 ( F.Cu 上)
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(30.3000 mm, 7.0920 mm): 配線 [GND] ( F.Cu 上、長さ: 2.9020 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0500 mm)
+    Local override; error
+    @(27.9500 mm, 7.6750 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.5517 mm )
+    @(27.6000 mm, 9.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.6000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(12.1000 mm, 13.6231 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.6036 mm )
+    @(11.3500 mm, 12.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.0000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット TPS_EN と LED_WIFI_A)
+    Local override; error
+    @(6.5000 mm, 16.5000 mm): ビア [TPS_EN] (F.Cu - B.Cu 上)
+    @(6.2500 mm, 15.8000 mm): 配線 [LED_WIFI_A] ( F.Cu 上、長さ: 0.5000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット TPS_EN と LED_WIFI)
+    Local override; error
+    @(6.5000 mm, 16.5000 mm): ビア [TPS_EN] (F.Cu - B.Cu 上)
+    @(21.0000 mm, 16.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 17.6500 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(27.9500 mm, 10.2250 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.5517 mm )
+    @(27.6000 mm, 11.7000 mm): 配線 [GND] ( F.Cu 上、長さ: 2.2000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(6.7500 mm, 14.8000 mm): 配線 [3V3] ( F.Cu 上、長さ: 1.6000 mm )
+    @(6.2500 mm, 14.3000 mm): 配線 [LED_PWR_A] ( F.Cu 上、長さ: 1.4000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(6.5000 mm, 16.5000 mm): 配線 [TPS_EN] ( B.Cu 上、長さ: 27.5000 mm )
+    @(21.0000 mm, 12.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 4.0000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット TPS_EN と GND)
+    Local override; error
+    @(34.0000 mm, 16.5000 mm): 配線 [TPS_EN] ( B.Cu 上、長さ: 9.0000 mm )
+    @(34.3000 mm, 13.3000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(26.4533 mm, 7.4607 mm): 配線 [3V3] ( B.Cu 上、長さ: 10.9165 mm )
+    @(21.0000 mm, 12.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 4.0000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0737 mm)
+    Local override; error
+    @(8.5000 mm, 16.1000 mm): ビア [VBAT] (F.Cu - B.Cu 上)
+    @(2.8290 mm, 15.6513 mm): 配線 [LED_STATUS] ( B.Cu 上、長さ: 13.3159 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(26.5500 mm, 6.3300 mm): 配線 [TPS_L2] ( F.Cu 上、長さ: 2.7700 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(10.9000 mm, 12.5000 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.5267 mm )
+    @(9.9500 mm, 12.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.4000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0703 mm)
+    Local override; error
+    @(25.7000 mm, 9.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.2000 mm )
+    @(25.7361 mm, 9.7453 mm): 配線 [VBAT] ( F.Cu 上、長さ: 0.4149 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(27.6000 mm, 9.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.6000 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(27.9500 mm, 10.2250 mm): パッド 1 [3V3] - C6 ( F.Cu 上)
+    @(27.6000 mm, 11.7000 mm): 配線 [GND] ( F.Cu 上、長さ: 2.2000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と TPS_EN)
+    Local override; error
+    @(27.9500 mm, 8.7200 mm): 配線 [GND] ( F.Cu 上、長さ: 0.1803 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0500 mm)
+    Local override; error
+    @(27.3983 mm, 7.6166 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.0584 mm )
+    @(27.6000 mm, 7.9000 mm): 配線 [GND] ( F.Cu 上、長さ: 0.7000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(32.0767 mm, 7.0721 mm): 配線 [VCHG_5V] ( F.Cu 上、長さ: 3.4267 mm )
+    @(30.5750 mm, 9.9940 mm): 配線 [GND] ( F.Cu 上、長さ: 2.4501 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(15.0466 mm, 14.1267 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.1792 mm )
+    @(16.5000 mm, 14.0000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.4731 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(16.5000 mm, 14.0000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.4731 mm )
+    @(14.0000 mm, 13.6000 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.5267 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(11.3500 mm, 12.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.0000 mm )
+    @(11.4964 mm, 13.6231 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.8434 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(27.9500 mm, 7.6750 mm): パッド 1 [3V3] - C5 ( F.Cu 上)
+    @(27.6000 mm, 7.9000 mm): 配線 [GND] ( F.Cu 上、長さ: 0.7000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0703 mm)
+    Local override; error
+    @(25.7361 mm, 9.7453 mm): 配線 [VBAT] ( F.Cu 上、長さ: 0.4149 mm )
+    @(24.5000 mm, 9.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.2000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(10.9000 mm, 12.5000 mm): パッド 3 [3V3] - U4 ( F.Cu 上)
+    @(9.9500 mm, 12.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.4000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と LED_WIFI)
+    Local override; error
+    @(20.6133 mm, 13.3278 mm): 配線 [3V3] ( F.Cu 上、長さ: 2.3021 mm )
+    @(21.0000 mm, 12.5000 mm): ビア [LED_WIFI] (F.Cu - B.Cu 上)
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(26.9000 mm, 9.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 0.7000 mm )
+    @(27.2517 mm, 8.7000 mm): 配線 [3V3] ( F.Cu 上、長さ: 1.3784 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(8.0371 mm, 13.8733 mm): 配線 [2V8] ( F.Cu 上、長さ: 1.7471 mm )
+    @(6.7500 mm, 13.2000 mm): 配線 [3V3] ( F.Cu 上、長さ: 2.2500 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と GPIO0)
+    Local override; error
+    @(17.8480 mm, 9.3890 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(17.8312 mm, 9.5788 mm): 配線 [GPIO0] ( In2.Cu 上、長さ: 5.0347 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_DN と GND)
+    Local override; error
+    @(25.1883 mm, 17.3000 mm): パッド B7 [USB_DN] - J2 ( F.Cu 上)
+    @(25.0000 mm, 17.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0198 mm)
+    Local override; error
+    @(8.5000 mm, 16.1000 mm): 配線 [VBAT] ( B.Cu 上、長さ: 21.3700 mm )
+    @(25.7469 mm, 16.4198 mm): ビア [USB_DP] (F.Cu - B.Cu 上)
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(27.2517 mm, 7.8216 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.8784 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_DN と GND)
+    Local override; error
+    @(25.1883 mm, 17.3000 mm): 配線 [USB_DN] ( F.Cu 上、長さ: 0.6767 mm )
+    @(25.0000 mm, 17.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット CAM_D8 と GND)
+    Local override; error
+    @(14.9549 mm, 13.3901 mm): 配線 [CAM_D8] ( In2.Cu 上、長さ: 3.0315 mm )
+    @(13.0500 mm, 13.6000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と CAM_D5)
+    Local override; error
+    @(13.0500 mm, 13.6000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(16.5748 mm, 13.8547 mm): 配線 [CAM_D5] ( In2.Cu 上、長さ: 6.3158 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と TPS_EN)
+    Local override; error
+    @(27.9392 mm, 8.9000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0913 mm)
+    Local override; error
+    @(21.0000 mm, 12.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 4.0000 mm )
+    @(21.3913 mm, 13.1389 mm): ビア [GPIO0] (F.Cu - B.Cu 上)
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(32.0767 mm, 7.0721 mm): 配線 [VCHG_5V] ( F.Cu 上、長さ: 3.4267 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と GPIO0)
+    Local override; error
+    @(17.8480 mm, 9.3890 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(15.3405 mm, 9.5788 mm): 配線 [GPIO0] ( In2.Cu 上、長さ: 2.4907 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0807 mm)
+    Local override; error
+    @(21.0733 mm, 8.7894 mm): 配線 [LED_STATUS] ( F.Cu 上、長さ: 0.8678 mm )
+    @(21.0000 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 3.3110 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GPIO0 と LED_WIFI)
+    Local override; error
+    @(17.8312 mm, 9.5788 mm): 配線 [GPIO0] ( In2.Cu 上、長さ: 5.0347 mm )
+    @(21.0000 mm, 12.5000 mm): ビア [LED_WIFI] (F.Cu - B.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット VCHG_5V と TPS_EN)
+    Local override; error
+    @(30.7500 mm, 8.9917 mm): 配線 [VCHG_5V] ( F.Cu 上、長さ: 0.2634 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と GND)
+    Local override; error
+    @(27.3983 mm, 7.6750 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.2073 mm )
+    @(27.6000 mm, 7.9000 mm): 配線 [GND] ( F.Cu 上、長さ: 0.7000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0750 mm)
+    Local override; error
+    @(24.1480 mm, 8.3000 mm): 配線 [VBAT] ( F.Cu 上、長さ: 0.9020 mm )
+    @(25.7000 mm, 8.7000 mm): パッド 11 [GND] - U2 ( F.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0750 mm)
+    Local override; error
+    @(25.0500 mm, 9.1000 mm): 配線 [VBAT] ( F.Cu 上、長さ: 0.3740 mm )
+    @(25.7000 mm, 8.7000 mm): パッド 11 [GND] - U2 ( F.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と LED_WIFI)
+    Local override; error
+    @(26.4533 mm, 7.4607 mm): 配線 [3V3] ( B.Cu 上、長さ: 10.9165 mm )
+    @(21.0000 mm, 12.5000 mm): ビア [LED_WIFI] (F.Cu - B.Cu 上)
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(31.2500 mm, 7.0917 mm): 配線 [VBAT] ( F.Cu 上、長さ: 2.0038 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット USB_DN と VBAT)
+    Local override; error
+    @(25.1559 mm, 16.2870 mm): ビア [USB_DN] (F.Cu - B.Cu 上)
+    @(8.5000 mm, 16.1000 mm): 配線 [VBAT] ( B.Cu 上、長さ: 21.3700 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と LED_WIFI)
+    Local override; error
+    @(20.9883 mm, 15.4000 mm): PTHパッド S1 [GND] (J2)
+    @(21.0000 mm, 12.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 4.0000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0250 mm)
+    Local override; error
+    @(20.9883 mm, 15.4000 mm): PTHパッド S1 [GND] (J2)
+    @(21.0000 mm, 16.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 17.6500 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0750 mm)
+    Local override; error
+    @(6.5000 mm, 17.2000 mm): パッド 2 [TPS_EN] - SW2 ( F.Cu 上)
+    @(6.2500 mm, 15.8000 mm): 配線 [LED_WIFI_A] ( F.Cu 上、長さ: 0.5000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(25.3212 mm, 9.7453 mm): 配線 [VBAT] ( F.Cu 上、長さ: 0.9126 mm )
+    @(24.5000 mm, 9.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.2000 mm )
+[clearance]: クリアランス違反 ( クリアランス 0.1000 mm; 現状 0.0750 mm)
+    Local override; error
+    @(4.5000 mm, 17.2000 mm): パッド 1 [GND] - SW2 ( F.Cu 上)
+    @(4.2500 mm, 16.3000 mm): 配線 [LED_WIFI_A] ( F.Cu 上、長さ: 0.5000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と LED_WIFI_A)
+    Local override; error
+    @(4.7500 mm, 16.3000 mm): パッド 1 [GND] - LED3 ( F.Cu 上)
+    @(4.2500 mm, 15.8000 mm): 配線 [LED_WIFI_A] ( F.Cu 上、長さ: 2.0000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+    @(25.0500 mm, 8.3000 mm): 配線 [VBAT] ( F.Cu 上、長さ: 0.8000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(26.9000 mm, 8.3000 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.4000 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(26.9000 mm, 8.7000 mm): 配線 [3V3] ( F.Cu 上、長さ: 0.3517 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(29.8500 mm, 8.9917 mm): 配線 [CHG_PROG] ( F.Cu 上、長さ: 2.9917 mm )
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+[shorting_items]: ２つのネットを短絡するアイテム (ネット 3V3 と LED_PWR_A)
+    Local override; error
+    @(6.7500 mm, 14.8000 mm): パッド 1 [3V3] - R12 ( F.Cu 上)
+    @(6.2500 mm, 14.8000 mm): パッド 2 [LED_PWR_A] - LED2 ( F.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット LED_WIFI_A と GND)
+    Local override; error
+    @(4.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - R13 ( F.Cu 上)
+    @(4.5000 mm, 17.2000 mm): パッド 1 [GND] - SW2 ( F.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット LED_WIFI_A と GND)
+    Local override; error
+    @(4.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - R13 ( F.Cu 上)
+    @(4.7500 mm, 16.3000 mm): パッド 1 [GND] - LED3 ( F.Cu 上)
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.1500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(25.1883 mm, 17.3000 mm): パッド B7 [USB_DN] - J2 ( F.Cu 上)
+    @(25.0000 mm, 17.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.1500 mm; 現状 0.0000 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(6.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - LED3 ( F.Cu 上)
+    @(6.5000 mm, 16.5000 mm): ビア [TPS_EN] (F.Cu - B.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット LED_WIFI_A と TPS_EN)
+    Local override; error
+    @(6.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - LED3 ( F.Cu 上)
+    @(6.5000 mm, 17.2000 mm): パッド 2 [TPS_EN] - SW2 ( F.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.2000 mm; 現状 0.0500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(0.0000 mm, 0.0000 mm): 矩形 (Edge.Cuts 上)
+    @(4.5000 mm, 17.2000 mm): パッド 1 [GND] - SW2 ( F.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.2000 mm; 現状 0.0500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(0.0000 mm, 0.0000 mm): 矩形 (Edge.Cuts 上)
+    @(6.5000 mm, 17.2000 mm): パッド 2 [TPS_EN] - SW2 ( F.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.2000 mm; 現状 0.0500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(0.0000 mm, 0.0000 mm): 矩形 (Edge.Cuts 上)
+    @(8.5000 mm, 17.2000 mm): パッド 3 [VBAT] - SW2 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(27.6000 mm, 9.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.6000 mm )
+    @(27.9500 mm, 7.6750 mm): パッド 1 [3V3] - C5 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(27.6000 mm, 11.7000 mm): 配線 [GND] ( F.Cu 上、長さ: 2.2000 mm )
+    @(27.9500 mm, 10.2250 mm): パッド 1 [3V3] - C6 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 3.3110 mm )
+    @(21.2984 mm, 11.1894 mm): パッド 31 [<no net>] - U1 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 3.3110 mm )
+    @(21.2984 mm, 10.7894 mm): パッド 32 [<no net>] - U1 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 3.3110 mm )
+    @(21.2984 mm, 10.3894 mm): パッド 33 [<no net>] - U1 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 3.3110 mm )
+    @(21.2984 mm, 11.9894 mm): パッド 29 [VDD_SPI] - U1 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 3.3110 mm )
+    @(21.2984 mm, 11.5894 mm): パッド 30 [<no net>] - U1 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 3.3110 mm )
+    @(21.2984 mm, 9.9894 mm): パッド 34 [<no net>] - U1 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(30.5750 mm, 9.9940 mm): 配線 [GND] ( F.Cu 上、長さ: 2.4501 mm )
+    @(31.5250 mm, 9.9722 mm): パッド 1 [VBAT] - C9 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 9.1890 mm): 配線 [LED_WIFI] ( F.Cu 上、長さ: 3.3110 mm )
+    @(21.2984 mm, 9.5894 mm): パッド 35 [<no net>] - U1 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(16.5000 mm, 14.0000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.4731 mm )
+    @(15.6000 mm, 14.0000 mm): パッド 1 [3V3] - C15 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(16.5000 mm, 14.0000 mm): 配線 [GND] ( F.Cu 上、長さ: 3.4731 mm )
+    @(14.0000 mm, 13.6000 mm): パッド 3 [3V3] - U5 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(27.6000 mm, 7.9000 mm): 配線 [GND] ( F.Cu 上、長さ: 0.7000 mm )
+    @(27.9500 mm, 7.6750 mm): パッド 1 [3V3] - C5 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(9.9500 mm, 12.5000 mm): 配線 [GND] ( F.Cu 上、長さ: 1.4000 mm )
+    @(10.9000 mm, 12.5000 mm): パッド 3 [3V3] - U4 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 12.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 4.0000 mm )
+    @(20.9883 mm, 15.4000 mm): PTHパッド S1 [GND] (J2)
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(21.0000 mm, 16.5000 mm): 配線 [LED_WIFI] ( B.Cu 上、長さ: 17.6500 mm )
+    @(20.9883 mm, 15.4000 mm): PTHパッド S1 [GND] (J2)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(4.2500 mm, 15.8000 mm): 配線 [LED_WIFI_A] ( F.Cu 上、長さ: 2.0000 mm )
+    @(4.7500 mm, 16.3000 mm): パッド 1 [GND] - LED3 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(4.7500 mm, 16.3000 mm): パッド 1 [GND] - LED3 ( F.Cu 上)
+    @(4.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - R13 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(6.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - LED3 ( F.Cu 上)
+    @(6.5000 mm, 17.2000 mm): パッド 2 [TPS_EN] - SW2 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(6.7500 mm, 14.8000 mm): パッド 1 [3V3] - R12 ( F.Cu 上)
+    @(6.2500 mm, 14.8000 mm): パッド 2 [LED_PWR_A] - LED2 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(25.0000 mm, 17.5000 mm): ビア [GND] (F.Cu - B.Cu 上)
+    @(25.1883 mm, 17.3000 mm): パッド B7 [USB_DN] - J2 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(4.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - R13 ( F.Cu 上)
+    @(4.5000 mm, 17.2000 mm): パッド 1 [GND] - SW2 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(8.5000 mm, 16.1000 mm): 配線 [VBAT] ( B.Cu 上、長さ: 21.3700 mm )
+    @(20.9883 mm, 15.4000 mm): PTHパッド S1 [GND] (J2)
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(8.5000 mm, 16.1000 mm): 配線 [VBAT] ( B.Cu 上、長さ: 21.3700 mm )
+    @(29.9883 mm, 15.4000 mm): PTHパッド S2 [GND] (J2)
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(29.8700 mm, 16.1000 mm): 配線 [VBAT] ( B.Cu 上、長さ: 5.6600 mm )
+    @(29.9883 mm, 15.4000 mm): PTHパッド S2 [GND] (J2)
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(29.8700 mm, 16.1000 mm): 配線 [VBAT] ( B.Cu 上、長さ: 5.6600 mm )
+    @(31.0000 mm, 14.7000 mm): パッド 1 [GND] - BAT- ( B.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(6.5000 mm, 17.2000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 0.7000 mm )
+    @(6.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - LED3 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+    @(25.7000 mm, 8.7000 mm): パッド 11 [GND] - U2 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+    @(26.9000 mm, 8.7000 mm): パッド 8 [3V3] - U2 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+    @(27.9500 mm, 8.7250 mm): パッド 2 [GND] - C6 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+    @(30.7500 mm, 8.9917 mm): パッド 4 [VCHG_5V] - U3 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(34.0000 mm, 8.7000 mm): 配線 [TPS_EN] ( F.Cu 上、長さ: 9.5000 mm )
+    @(29.8500 mm, 8.9917 mm): パッド 5 [CHG_PROG] - U3 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(6.5000 mm, 16.5000 mm): ビア [TPS_EN] (F.Cu - B.Cu 上)
+    @(6.2500 mm, 16.3000 mm): パッド 2 [LED_WIFI_A] - LED3 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(6.5000 mm, 16.5000 mm): 配線 [TPS_EN] ( B.Cu 上、長さ: 27.5000 mm )
+    @(20.9883 mm, 15.4000 mm): PTHパッド S1 [GND] (J2)
+[solder_mask_bridge]: 異なるネットのアイテムが裏面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(6.5000 mm, 16.5000 mm): 配線 [TPS_EN] ( B.Cu 上、長さ: 27.5000 mm )
+    @(29.9883 mm, 15.4000 mm): PTHパッド S2 [GND] (J2)
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
