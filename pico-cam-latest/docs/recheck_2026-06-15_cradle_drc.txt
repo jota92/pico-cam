@@ -1,0 +1,274 @@
+** Drc report for USB_C_to_Pogo_Cradle_RevA_all_parts_placed.kicad_pcb **
+** Created on 2026-06-15T23:05:59 **
+** Report includes: Errors, Warnings **
+
+** Found 49 DRC violations **
+[shorting_items]: ２つのネットを短絡するアイテム (ネット CC2 と GND)
+    Local override; error
+    @(9.7500 mm, 3.4000 mm): パッド 1 [CC2] - R2 ( F.Cu 上)
+    @(9.2500 mm, 3.4000 mm): パッド 2 [GND] - R1 ( F.Cu 上)
+[shorting_items]: ２つのネットを短絡するアイテム (ネット GND と PWR_LED)
+    Local override; error
+    @(23.2500 mm, 3.0000 mm): パッド 1 [GND] - LED1 ( F.Cu 上)
+    @(23.2500 mm, 3.0000 mm): パッド 2 [PWR_LED] - R3 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(23.2500 mm, 3.0000 mm): パッド 2 [PWR_LED] - R3 ( F.Cu 上)
+    @(23.2500 mm, 3.0000 mm): パッド 1 [GND] - LED1 ( F.Cu 上)
+[solder_mask_bridge]: 異なるネットのアイテムが表面ハンダマスクのアパーチャで接続されている
+    Rule: 基板セットアップのハンダマスクの最小幅; error
+    @(9.7500 mm, 3.4000 mm): パッド 1 [CC2] - R2 ( F.Cu 上)
+    @(9.2500 mm, 3.4000 mm): パッド 2 [GND] - R1 ( F.Cu 上)
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Connector_USB' が含まれていません
+    Local override; warning
+    @(5.5000 mm, 7.5000 mm): フットプリント J1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Fuse' が含まれていません
+    Local override; warning
+    @(15.0000 mm, 7.5000 mm): フットプリント F1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Diode_SMD' が含まれていません
+    Local override; warning
+    @(20.0000 mm, 5.5000 mm): フットプリント D1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Resistor_SMD' が含まれていません
+    Local override; warning
+    @(8.8000 mm, 3.4000 mm): フットプリント R1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Resistor_SMD' が含まれていません
+    Local override; warning
+    @(10.2000 mm, 3.4000 mm): フットプリント R2
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'CUSTOM' が含まれていません
+    Local override; warning
+    @(28.0000 mm, 7.5000 mm): フットプリント P1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'CUSTOM' が含まれていません
+    Local override; warning
+    @(32.0000 mm, 7.5000 mm): フットプリント P2
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'CUSTOM' が含まれていません
+    Local override; warning
+    @(36.0000 mm, 7.5000 mm): フットプリント P3
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'CUSTOM' が含まれていません
+    Local override; warning
+    @(40.0000 mm, 7.5000 mm): フットプリント P4
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'LED_SMD' が含まれていません
+    Local override; warning
+    @(24.0000 mm, 3.0000 mm): フットプリント LED1
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Resistor_SMD' が含まれていません
+    Local override; warning
+    @(22.8000 mm, 3.0000 mm): フットプリント R3
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'LED_SMD' が含まれていません
+    Local override; warning
+    @(24.0000 mm, 11.0000 mm): フットプリント LED2
+[lib_footprint_issues]: 現在の構成にはフットプリント ライブラリ 'Resistor_SMD' が含まれていません
+    Local override; warning
+    @(22.8000 mm, 11.0000 mm): フットプリント R4
+[text_thickness]: 文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.0800 mm; 現状 0.0600 mm)
+    Rule: 基板の設定のシルク印刷のテキストの太さの制約; warning
+    @(22.5000 mm, 13.5000 mm): 基板上のテキスト 'POGO pitch 4.0mm, order 5V/GND/STAT/WAKE - confirm MIRROR vs device dock orientation' ( F.Silkscreen 上)
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.4000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(22.5000 mm, 13.5000 mm): 基板上のテキスト 'POGO pitch 4.0mm, order 5V/GND/STAT/WAKE - confirm MIRROR vs device dock orientation' ( F.Silkscreen 上)
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(5.5000 mm, 4.3000 mm): J1のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(15.0000 mm, 5.7000 mm): F1のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(20.0000 mm, 3.7000 mm): D1のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(8.8000 mm, 1.6000 mm): R1のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(10.2000 mm, 1.6000 mm): R2のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(28.0000 mm, 5.7000 mm): P1のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(32.0000 mm, 5.7000 mm): P2のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(36.0000 mm, 5.7000 mm): P3のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(40.0000 mm, 5.7000 mm): P4のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(24.0000 mm, 1.2000 mm): LED1のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(22.8000 mm, 1.2000 mm): R3のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(24.0000 mm, 9.2000 mm): LED2のリファレンスフィールド
+[text_height]: 文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 0.8000 mm; 現状 0.6000 mm)
+    Rule: 基板の設定のシルク印刷のテキスト高の制約; warning
+    @(22.8000 mm, 9.2000 mm): R4のリファレンスフィールド
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(9.2000 mm, 2.6000 mm): 矩形 of R2 、F.Silkscreen 上
+    @(7.8000 mm, 2.6000 mm): 矩形 of R1 、F.Silkscreen 上
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(24.0000 mm, 9.2000 mm): LED2のリファレンスフィールド
+    @(22.8000 mm, 9.2000 mm): R4のリファレンスフィールド
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(22.8000 mm, 1.2000 mm): R3のリファレンスフィールド
+    @(24.0000 mm, 1.2000 mm): LED1のリファレンスフィールド
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(23.0000 mm, 2.2000 mm): 矩形 of LED1 、F.Silkscreen 上
+    @(21.8000 mm, 2.2000 mm): 矩形 of R3 、F.Silkscreen 上
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(23.0000 mm, 2.2000 mm): 矩形 of LED1 、F.Silkscreen 上
+    @(25.0000 mm, 3.0000 mm): 矩形 (F.Silkscreen 上)
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(24.0000 mm, 9.2000 mm): LED2のリファレンスフィールド
+    @(25.0000 mm, 3.0000 mm): 矩形 (F.Silkscreen 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(1.1000 mm, 4.9000 mm): 矩形 of J1 、F.Silkscreen 上
+    @(9.4000 mm, 7.5000 mm): パッド S2 [GND] - J1 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(1.1000 mm, 4.9000 mm): 矩形 of J1 、F.Silkscreen 上
+    @(1.6000 mm, 7.5000 mm): パッド S1 [GND] - J1 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7.8000 mm, 2.6000 mm): 矩形 of R1 、F.Silkscreen 上
+    @(9.7500 mm, 3.4000 mm): パッド 1 [CC2] - R2 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9.2000 mm, 2.6000 mm): 矩形 of R2 、F.Silkscreen 上
+    @(9.2500 mm, 3.4000 mm): パッド 2 [GND] - R1 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(14.0000 mm, 6.7000 mm): 矩形 of F1 、F.Silkscreen 上
+    @(13.6000 mm, 7.5000 mm): パッド 1 [VBUS_5V] - F1 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(14.0000 mm, 6.7000 mm): 矩形 of F1 、F.Silkscreen 上
+    @(16.4000 mm, 7.5000 mm): パッド 2 [VBUS_PROTECTED] - F1 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.0000 mm, 2.2000 mm): 矩形 of LED1 、F.Silkscreen 上
+    @(24.7500 mm, 3.0000 mm): パッド 2 [PWR_LED] - LED1 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.0000 mm, 2.2000 mm): 矩形 of LED1 、F.Silkscreen 上
+    @(23.2500 mm, 3.0000 mm): パッド 1 [GND] - LED1 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(23.0000 mm, 2.2000 mm): 矩形 of LED1 、F.Silkscreen 上
+    @(23.2500 mm, 3.0000 mm): パッド 2 [PWR_LED] - R3 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(25.0000 mm, 3.0000 mm): 矩形 (F.Silkscreen 上)
+    @(24.7500 mm, 3.0000 mm): パッド 2 [PWR_LED] - LED1 ( F.Cu 上)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(25.0000 mm, 3.0000 mm): 矩形 (F.Silkscreen 上)
+    @(24.7500 mm, 11.0000 mm): パッド 2 [STAT] - LED2 ( F.Cu 上)
+
+** Found 22 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(1.6000 mm, 7.5000 mm): パッド S1 [GND] - J1 ( F.Cu 上)
+    @(2.5000 mm, 9.0000 mm): パッド B12 [GND] - J1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2.5000 mm, 6.0000 mm): パッド A1 [GND] - J1 ( F.Cu 上)
+    @(1.6000 mm, 7.5000 mm): パッド S1 [GND] - J1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2.5000 mm, 9.0000 mm): パッド B12 [GND] - J1 ( F.Cu 上)
+    @(8.5000 mm, 9.0000 mm): パッド B1 [GND] - J1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.5000 mm, 6.0000 mm): パッド A12 [GND] - J1 ( F.Cu 上)
+    @(9.4000 mm, 7.5000 mm): パッド S2 [GND] - J1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.5000 mm, 6.0000 mm): パッド A12 [GND] - J1 ( F.Cu 上)
+    @(9.2500 mm, 3.4000 mm): パッド 2 [GND] - R1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.2500 mm, 3.4000 mm): パッド 2 [GND] - R1 ( F.Cu 上)
+    @(10.6500 mm, 3.4000 mm): パッド 2 [GND] - R2 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(9.4000 mm, 7.5000 mm): パッド S2 [GND] - J1 ( F.Cu 上)
+    @(8.5000 mm, 9.0000 mm): パッド B1 [GND] - J1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.6500 mm, 3.4000 mm): パッド 2 [GND] - R2 ( F.Cu 上)
+    @(20.5000 mm, 5.5000 mm): パッド 2 [GND] - D1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(20.5000 mm, 5.5000 mm): パッド 2 [GND] - D1 ( F.Cu 上)
+    @(23.2500 mm, 3.0000 mm): パッド 1 [GND] - LED1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.0000 mm, 7.5000 mm): パッド 1 [GND] - P2 ( F.Cu 上)
+    @(23.2500 mm, 3.0000 mm): パッド 1 [GND] - LED1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3.5000 mm, 6.0000 mm): パッド A4 [VBUS_5V] - J1 ( F.Cu 上)
+    @(3.5000 mm, 9.0000 mm): パッド B9 [VBUS_5V] - J1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.5000 mm, 6.0000 mm): パッド A9 [VBUS_5V] - J1 ( F.Cu 上)
+    @(3.5000 mm, 6.0000 mm): パッド A4 [VBUS_5V] - J1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.5000 mm, 9.0000 mm): パッド B4 [VBUS_5V] - J1 ( F.Cu 上)
+    @(7.5000 mm, 6.0000 mm): パッド A9 [VBUS_5V] - J1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.5000 mm, 9.0000 mm): パッド B4 [VBUS_5V] - J1 ( F.Cu 上)
+    @(13.6000 mm, 7.5000 mm): パッド 1 [VBUS_5V] - F1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(19.5000 mm, 5.5000 mm): パッド 1 [VBUS_PROTECTED] - D1 ( F.Cu 上)
+    @(16.4000 mm, 7.5000 mm): パッド 2 [VBUS_PROTECTED] - F1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(19.5000 mm, 5.5000 mm): パッド 1 [VBUS_PROTECTED] - D1 ( F.Cu 上)
+    @(22.3500 mm, 3.0000 mm): パッド 1 [VBUS_PROTECTED] - R3 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(22.3500 mm, 11.0000 mm): パッド 1 [VBUS_PROTECTED] - R4 ( F.Cu 上)
+    @(19.5000 mm, 5.5000 mm): パッド 1 [VBUS_PROTECTED] - D1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(22.3500 mm, 11.0000 mm): パッド 1 [VBUS_PROTECTED] - R4 ( F.Cu 上)
+    @(28.0000 mm, 7.5000 mm): パッド 1 [VBUS_PROTECTED] - P1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(24.7500 mm, 11.0000 mm): パッド 2 [STAT] - LED2 ( F.Cu 上)
+    @(36.0000 mm, 7.5000 mm): パッド 1 [STAT] - P3 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.5000 mm, 6.0000 mm): パッド A5 [CC1] - J1 ( F.Cu 上)
+    @(8.3500 mm, 3.4000 mm): パッド 1 [CC1] - R1 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(6.5000 mm, 9.0000 mm): パッド B5 [CC2] - J1 ( F.Cu 上)
+    @(9.7500 mm, 3.4000 mm): パッド 1 [CC2] - R2 ( F.Cu 上)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(23.2500 mm, 3.0000 mm): パッド 2 [PWR_LED] - R3 ( F.Cu 上)
+    @(24.7500 mm, 3.0000 mm): パッド 2 [PWR_LED] - LED1 ( F.Cu 上)
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

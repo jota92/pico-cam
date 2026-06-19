@@ -1,0 +1,26 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-06-19T11:24:47+09:00*%
+%TF.ProjectId,CameraIoT_USB-C_Programmer_Dock,43616d65-7261-4496-9f54-5f5553422d43,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-06-19 11:24:47*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X0Y0D02*
+X60000000Y0D01*
+X0Y-18000000D02*
+X0Y0D01*
+X60000000Y0D02*
+X60000000Y-18000000D01*
+X60000000Y-18000000D02*
+X0Y-18000000D01*
+M02*

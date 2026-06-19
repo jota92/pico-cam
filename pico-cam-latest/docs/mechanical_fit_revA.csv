@@ -1,0 +1,7 @@
+﻿Item,X_mm,Y_mm,Z_mm,Comment
+Final case outer,40,20,11,"Lens, antenna, LEDs, pads included"
+PCB,38,18,0.8,0.8mm 4-layer FR-4
+OV2640FSL camera head,8,8,5.85,Placed at front-left lens window (top side)
+401230 LiPo,30,12,4.0,"Bottom side adhesive; RevA1 area (4.0,2.0)-(34.0,14.0): clears ANT keepout (X>=35,Y>=13.5)"
+Antenna keepout,3.0,4.5,0,"RevA1 narrowed to radiator only: X 35.0-38.0, Y 13.5-18.0. No copper/GND/metal/battery"
+Z-stack camera over battery,,,11.85,"WORST CASE risk: battery 4.0 + PCB 0.8 + camera 5.85 + shells 1.2 if they overlap in XY"

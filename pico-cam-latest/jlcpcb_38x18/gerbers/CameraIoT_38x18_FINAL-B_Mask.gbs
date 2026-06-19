@@ -1,0 +1,92 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*
+G04 #@! TF.CreationDate,2026-06-20T02:14:04+09:00*
+G04 #@! TF.ProjectId,CameraIoT_38x18_FINAL,43616d65-7261-4496-9f54-5f3338783138,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Bot*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-06-20 02:14:04*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%ADD10C,1.070000*%
+%ADD11O,1.270000X2.070000*%
+%ADD12RoundRect,0.294000X-0.741000X-0.441000X0.741000X-0.441000X0.741000X0.441000X-0.741000X0.441000X0*%
+%ADD13RoundRect,0.374000X-1.161000X-0.561000X1.161000X-0.561000X1.161000X0.561000X-1.161000X0.561000X0*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,MH4*
+X36600000Y-11000000D03*
+G04 #@! TD*
+G04 #@! TO.C,MH2*
+X36500000Y-1500000D03*
+G04 #@! TD*
+D11*
+G04 #@! TO.C,J2*
+X20988300Y-15400000D03*
+X29988300Y-15400000D03*
+G04 #@! TD*
+D10*
+G04 #@! TO.C,MH3*
+X1500000Y-16500000D03*
+G04 #@! TD*
+G04 #@! TO.C,MH1*
+X1500000Y-1500000D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.C,TP5*
+X20000000Y-1000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP2*
+X9000000Y-1000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP1*
+X5000000Y-1000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP7*
+X26600000Y-1000000D03*
+G04 #@! TD*
+D13*
+G04 #@! TO.C,BAT+*
+X26000000Y-14700000D03*
+G04 #@! TD*
+G04 #@! TO.C,BAT-*
+X31000000Y-14700000D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.C,TP3*
+X13000000Y-1000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP8*
+X29900000Y-1000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP9*
+X33200000Y-1000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP6*
+X23300000Y-1000000D03*
+G04 #@! TD*
+G04 #@! TO.C,TP4*
+X17000000Y-1000000D03*
+G04 #@! TD*
+M02*
