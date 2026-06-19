@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(unzip -l device/CameraIoT_RevC_Gerbers.zip)",
-      "Bash(unzip -l cradle/USB_C_to_Pogo_Cradle_RevC_Gerbers.zip)"
-    ]
-  }
-}
